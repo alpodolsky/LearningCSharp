@@ -1,0 +1,13 @@
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\bin\Debug\netcoreapp3.1\sudoku.exe
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\bin\Debug\netcoreapp3.1\sudoku.deps.json
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\bin\Debug\netcoreapp3.1\sudoku.runtimeconfig.json
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\bin\Debug\netcoreapp3.1\sudoku.runtimeconfig.dev.json
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\bin\Debug\netcoreapp3.1\sudoku.dll
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\bin\Debug\netcoreapp3.1\sudoku.pdb
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\obj\Debug\netcoreapp3.1\sudoku.csprojAssemblyReference.cache
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\obj\Debug\netcoreapp3.1\sudoku.AssemblyInfoInputs.cache
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\obj\Debug\netcoreapp3.1\sudoku.AssemblyInfo.cs
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\obj\Debug\netcoreapp3.1\sudoku.csproj.CoreCompileInputs.cache
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\obj\Debug\netcoreapp3.1\sudoku.dll
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\obj\Debug\netcoreapp3.1\sudoku.pdb
+C:\Users\PDog\Desktop\VisualProjects\sudoku\sudoku\obj\Debug\netcoreapp3.1\sudoku.genruntimeconfig.cache
