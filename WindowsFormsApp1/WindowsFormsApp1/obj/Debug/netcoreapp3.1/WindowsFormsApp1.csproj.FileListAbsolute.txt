@@ -4,7 +4,6 @@ C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug
 C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\WindowsFormsApp1.runtimeconfig.dev.json
 C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\WindowsFormsApp1.dll
 C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\WindowsFormsApp1.pdb
-C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.csprojAssemblyReference.cache
 C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.Form1.resources
 C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.csproj.GenerateResource.cache
 C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.AssemblyInfoInputs.cache
@@ -13,3 +12,5 @@ C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug
 C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.dll
 C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.pdb
 C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.genruntimeconfig.cache
+C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.Form2.resources
+C:\Users\PDog\Desktop\VisualProjects\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.csprojAssemblyReference.cache

@@ -8,13 +8,74 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//Random notes:
+    //Process.Start("")  will launch an application whose name matches the string
+    //process.Kill() is inverse
 namespace WindowsFormsApp1 {
     public partial class Form1 : Form {
         public Form1() {
             InitializeComponent();
         }
+        private static string [] createArray (string refer){
+            string[] array = new string[9];
+            char[,] board = new char[9, 9];
+
+            for (int i = 0; i < 9; i++) {
+                //filles first row with reference/input string
+                board[0, i] = refer[i];
+            }
+            array[0] = new string(refer);
+
+            //most of this only works assuming the given row is the first row(for now)
+            for (int i = 1; i < 9; i++) {
+                for (int j = 0; j < 9; j++) {
+                    int shift = 1, reference = 0;
+                    if (i <= 2) {
+                        shift = 3;
+                        if (i == 2) {
+                            reference = 1;
+                        }
+                        board[i, j] = board[reference, ((j + shift) % 9)];
+                        continue;
+                    }
+                    else {
+                        shift = 1;
+                        if (i == 3) {
+                            reference = 1;
+                        }
+                        else if (i == 4) {
+                            reference = 2;
+                        }
+                        else if (i == 5) {
+                            reference = 0;
+                        }
+                        else if (i == 6) {
+                            reference = 5;
+                        }
+                        else if (i == 7) {
+                            reference = 3;
+                        }
+                        else if (i == 8) {
+                            reference = 4;
+                        }
+                        board[i, j] = board[reference, (j + shift) % 9];
+                        continue;
+                    }
+                }
+            }
+            for(int i = 1; i < 9; i++) {
+                char[] temp = new char[9];
+                //save each char to a temp string
+                for(int j = 0; j  < 9; j++) {
+                    array[i] += board[i, j];
+                }
+                //array[i] = new string(temp);
+            }
+            return array;
+        }
 
         private void button1_Click(object sender, EventArgs e) {
+            //check for empty input
             char[] input;
 
             input = new char[9];
@@ -37,13 +98,31 @@ namespace WindowsFormsApp1 {
                     }
                 }
             }
+            textBox1.Text = "";
             string result = new string(input);
             label2.Text = result;
+
+            //ooo shiny component!
+            string[] arr = createArray(result);
+            
+            for (int i = 0; i < 9; i++) {
+                listBox1.Items.Add(arr[i]);
+            }
+            //listbox starts off invisible, only appears after filling
+            listBox1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e) {
             //clear the textbox
-                //later will have to probably clear other stuff
+            //later will have to probably clear other stuff
+            textBox1.Text = "";
+            label2.Text = "";
+
+            //re-hide and empty the listBox, deletes backwards
+            listBox1.Hide();
+            for(int i = 0; i < 9; i++) {
+                listBox1.Items.RemoveAt(8-i);
+            }
         }
     }
 }
